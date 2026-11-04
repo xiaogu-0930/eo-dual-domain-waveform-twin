@@ -1,0 +1,21 @@
+# Anlogic TD 编译产物与中间文件
+*_Runs/
+*.db
+*.log
+*.logw
+*.dmp
+td_*.log
+# ModelSim 仿真库
+work*/
+*.qdb
+*.qpg
+*.qtl
+_info
+_vmake
+# 备份与临时文件
+*.bak
+*.pre_*
+*~
+*.tmp
+# 位流放在 bitstream/ 目录，需要提交
+!bitstream/*.bit
